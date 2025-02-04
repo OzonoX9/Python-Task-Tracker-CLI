@@ -1,56 +1,56 @@
 # Task Tracker
 
-Este es un proyecto de la página [roadmap.sh](https://roadmap.sh/projects/task-tracker) de Python, que estoy haciendo para entregarlo y que me verifiquen/califiquen.
+This is a project from the [roadmap.sh](https://roadmap.sh/projects/task-tracker) page of Python, which I am doing to submit and get verified/graded.
 
-## Descripción
+## Description
 
-El proyecto es un Task-tracker hecho en Python.
+The project is a Task-tracker made in Python.
 
-## Instrucciones para ejecutar
+## Instructions to run
 
-1. Clona el repositorio:
+1. Clone the repository:
 
     ```sh
     git clone https://github.com/ozonox9/python-task-tracker.git
     ```
 
-2. Navega al directorio del proyecto:
+2. Navigate to the project directory:
 
     ```sh
     cd task-tracker
     ```
 
-3. Crea un entorno virtual:
+3. Create a virtual environment:
 
     ```sh
     python -m venv venv
     ```
 
-4. Activa el entorno virtual:
-    - En Windows:
+4. Activate the virtual environment:
+    - On Windows:
 
         ```sh
         venv\Scripts\activate
         ```
 
-    - En macOS/Linux:
+    - On macOS/Linux:
 
         ```sh
         source venv/bin/activate
         ```
 
-5. Instala las dependencias:
+5. Install the dependencies:
 
     ```sh
     pip install -r requirements.txt
     ```
 
-6. Ejecuta la aplicación:
+6. Run the application:
 
     ```sh
     python main.py
     ```
 
-## Enlace del proyecto
+## Project link
 
 [https://roadmap.sh/projects/task-tracker](https://roadmap.sh/projects/task-tracker)
