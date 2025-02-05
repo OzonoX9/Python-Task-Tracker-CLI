@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "description": "Comprar cosas y preparar la cena",
+        "status": "done",
+        "createdAt": "2025-02-04T21:05:08.383874",
+        "updatedAt": "2025-02-04T21:05:58.540452"
+    },
+    {
+        "id": 2,
+        "description": "Lavar la ropa",
+        "status": "todo",
+        "createdAt": "2025-02-04T21:06:31.585764",
+        "updatedAt": "2025-02-04T21:06:31.585764"
+    },
+    {
+        "id": 3,
+        "description": "Hacer la tarea",
+        "status": "todo",
+        "createdAt": "2025-02-04T21:06:45.170759",
+        "updatedAt": "2025-02-04T21:06:45.170759"
+    }
+]

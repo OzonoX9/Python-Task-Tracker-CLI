@@ -1,26 +1,26 @@
 # Task Tracker
 
-This is a project from the [roadmap.sh](https://roadmap.sh/projects/task-tracker) page of Python, which I am doing to submit and get verified/graded.
+This is a project from the [roadmap.sh](https://roadmap.sh/projects/task-tracker) page of Python.
 
 ## Description
 
-The project is a Task-tracker made in Python.
+The project is a Task-tracker made in Python. It allows users to manage tasks from the command line, including adding, updating, deleting, and listing tasks. Tasks can also be marked as in-progress or done.
 
 ## Instructions to run
 
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/ozonox9/python-task-tracker.git
+    git clone https://github.com/OzonoX9/Python-Task-Tracker-CLI
     ```
 
 2. Navigate to the project directory:
 
     ```sh
-    cd task-tracker
+    cd Python-Task-Tracker-CLI
     ```
 
-3. Create a virtual environment:
+3. Create a virtual environment (optional but recommended):
 
     ```sh
     python -m venv venv
@@ -39,17 +39,61 @@ The project is a Task-tracker made in Python.
         source venv/bin/activate
         ```
 
-5. Install the dependencies:
+5. Run the application with the following commands:
 
-    ```sh
-    pip install -r requirements.txt
-    ```
+    - **Adding a new task**:
 
-6. Run the application:
+        ```sh
+        python main.py add "Buy groceries"
+        ```
 
-    ```sh
-    python main.py
-    ```
+        Output: `Task added successfully (ID: 1)`
+
+    - **Updating a task**:
+
+        ```sh
+        python main.py update 1 "Buy groceries and cook dinner"
+        ```
+
+        Output: `Task updated successfully (ID: 1)`
+
+    - **Deleting a task**:
+
+        ```sh
+        python main.py delete 1
+        ```
+
+        Output: `Task deleted successfully (ID: 1)`
+
+    - **Marking a task as in progress**:
+
+        ```sh
+        python main.py mark-in-progress 1
+        ```
+
+        Output: `Task marked as in-progress (ID: 1)`
+
+    - **Marking a task as done**:
+
+        ```sh
+        python main.py mark-done 1
+        ```
+
+        Output: `Task marked as done (ID: 1)`
+
+    - **Listing all tasks**:
+
+        ```sh
+        python main.py list
+        ```
+
+    - **Listing tasks by status**:
+
+        ```sh
+        python main.py list done
+        python main.py list todo
+        python main.py list in-progress
+        ```
 
 ## Project link
 
